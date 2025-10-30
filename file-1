@@ -1,4 +1,5 @@
-#Databricks notebook source
+# Databricks notebook source
+# COMMAND ----------
 notebook_df = spark.sql(
     """
     SELECT *
@@ -8,4 +9,5 @@ notebook_df = spark.sql(
 )
 path_value = notebook_df.collect()[0]['path']
 print(path_value)
+# COMMAND ----------
 dbutils.notebook.run(path_value, 600)
