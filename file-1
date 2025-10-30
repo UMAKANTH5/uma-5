@@ -1,4 +1,4 @@
-# Databricks notebook source
+#Databricks notebook source
 notebook_df = spark.sql(
     """
     SELECT *
