@@ -1,3 +1,3 @@
-path_value = '/Workspace/Users/umakanth.charakanam@databricks.com/16.1'
+path_value = 'file-6.py'
 print(path_value)
 dbutils.notebook.run(path_value, 600)
